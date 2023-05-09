@@ -75,10 +75,10 @@ VALUES
 INSERT INTO usuarios (nome, sobrenome, idade, plano_id, data_assinatura)
 VALUES
 	('Barbara', 'Liskov', 82, 1, '2019-10-20'),
-    ('Robert ', 'Cecil Martin', 58, 1, '2017-01-06'),
+    ('Robert', 'Cecil Martin', 58, 1, '2017-01-06'),
     ('Ada', 'Lovelace', 37, 2, '2017-12-30'),
-    ('Martin ', 'Fowler', 46, 2, '2017-01-17'),
-    ('Sandi ', 'Metz', 58, 2, '2018-04-29'),
+    ('Martin', 'Fowler', 46, 2, '2017-01-17'),
+    ('Sandi', 'Metz', 58, 2, '2018-04-29'),
     ('Paulo', 'Freire', 19, 3, '2018-02-14'),
     ('Bell', 'Hooks', 26, 3, '2018-01-05'),
     ('Christopher', 'Alexander', 85, 4, '2019-06-05'),
