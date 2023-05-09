@@ -1,9 +1,10 @@
 SELECT
 	a.album AS album,
-    COUNT(f.cancoes_favoritas) AS favoritadas
+    COUNT(f.cancao_id) AS favoritadas
 FROM
-	favoritos AS f
-    INNER JOIN albuns AS a ON a.id = f.album_id
+	albuns AS a
+    JOIN cancoes AS c ON c.album_id = a.id
+    JOIN favoritos AS f ON c.id = f.cancao_id
 GROUP BY album
 ORDER BY favoritadas DESC
 LIMIT 3;
